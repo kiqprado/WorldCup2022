@@ -168,4 +168,24 @@ document.querySelector('#cards').innerHTML =
     '06/12',
     'Terça',
     createGame('portugal', 'POR', '16:00', 'switzerland', 'SUI')
+  ) +
+  createCard(
+    '09/12',
+    'Sexta',
+    createGame('croatia', 'CRO', '12:00', 'brazil', 'BRA')
+  ) +
+  createCard(
+    '09/12',
+    'Sexta',
+    createGame('netherlands', 'HOL', '16:00', 'argentina', 'ARG')
+  ) +
+  createCard(
+    '10/12',
+    'Sábado',
+    createGame('morocco', 'MAR', '12:00', 'portugal', 'POR')
+  ) +
+  createCard(
+    '10/12',
+    'Sábado',
+    createGame('england', 'ING', '16:00', 'france', 'FRA')
   )
